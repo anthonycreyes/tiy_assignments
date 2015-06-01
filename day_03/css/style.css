@@ -1,0 +1,188 @@
+body {
+	font-family: Helvetica;
+}
+
+.container {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+header {
+	max-width: 1280px;
+	height: 50px;
+}
+
+
+.main {
+	margin: 0px 0px 40px 40px
+}
+
+h1 {
+	font-size: 20px;
+	font: bold;
+	float: left;
+}
+
+
+li {
+	float: right;
+	margin-right: 40px;
+	font-size: 14px;
+
+
+}
+
+.mainphoto {
+	max-height: 1280px;
+	height: 580px;
+	background-image: url(../images/main-photo.jpg);
+	background-size: cover;
+}
+
+.aboutcompany{
+	max-width: 1280px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+h2 {
+	font-size: 30px;
+	font: bold;
+	text-align: center;
+}
+
+h3 {
+	font-size: 18px;
+	font: bold;
+	text-align: center;
+}
+
+
+.staff {
+	max-width: 1280px;
+ 	margin: 0 auto;
+ /*	margin-left: 100px;*/
+}
+
+.staff-photo{
+	width: 200px;
+	float: left;
+	margin-bottom: 110px;
+	margin-left: 100px;
+	margin-right: 240px;
+}
+
+.image-han {
+	height: 200px;
+	width: 200px;
+	background-image: url(../images/han.jpg);
+	border-radius: 100px;
+}
+
+.staff-photo2{
+	width: 200px;
+	float: left;
+	margin-bottom: 110px;
+	margin-right: 240px;
+}
+
+.image-chewy {
+	height: 200px;
+	width: 200px;
+	background-image: url(../images/chewbacca.jpg);
+	border-radius: 100px;
+}
+
+.staff-photo3{
+	width: 200px;
+	float: left;
+	margin-bottom: 110px;
+}
+
+.image-darth {
+	height: 200px;
+	width: 200px;
+	background-image: url(../images/darth.jpg);
+	border-radius: 100px;
+}
+
+p {
+	font-size: 11px;
+	text-align: center;
+	max-width: 200px;
+}
+
+.location {
+	max-width: 1280px;
+	clear: both;
+	margin-top: 110px;
+}
+
+
+.map {
+	height: 500px;
+	width: 640px;
+	float: left;
+	background-image: url(../images/map.png);
+}
+
+
+.mapinfo2 {
+	height: 500px;
+	margin-left: 640px;
+	background: #f2ede5;
+}
+
+
+.mapspacetop {
+	height: 180px;
+	width: 640px;
+	background: #f2ede5;
+}
+
+.maptitle {
+	height: 70px;
+	width: 510px;
+	margin-left: 130px;
+	background: #f2ede5;
+}
+
+.maptitle h2 {
+	text-align: left;
+}
+
+.mapdirections {
+	height: 70px;
+	width: 510px;
+	margin-left: 130px;
+	background: #f2ede5;
+}
+
+.mapdirections h3 {
+	text-align: left;
+}
+
+.mapspacebottom {
+	height: 180px;
+	width: 640px;
+	background: #f2ede5;
+
+}
+
+
+
+.footer {
+	height: 130px;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.footertext {
+	font-size: 20px;
+	font-style: Helvetica;
+	text-align: center;
+	margin-top: 65px;
+	margin-bottom: 65px;
+}
+
+

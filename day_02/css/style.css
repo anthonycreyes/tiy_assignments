@@ -1,0 +1,27 @@
+.container {
+  max-width: 960px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.left-col {
+  min-height: 200px;
+  width: 50%;
+  background: #9DBA7A;
+  float: left;
+}
+
+.right-col {
+  min-height: 200px;
+  width: 50%;
+  background: #62A265;
+  float: right;
+}
+
+.main {
+  min-height: 200px;
+  background: #2A867B;
+  border: 10px;
+  border-color: #000000;
+
+}

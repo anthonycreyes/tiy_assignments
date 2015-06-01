@@ -1,0 +1,185 @@
+body{	
+	font-family: helvetica;
+}
+
+.container {
+	width: 1300px;
+	margin: 0 auto;
+	font-family: Helvetica;
+}
+
+header {
+	max-width: 1300px;
+	height: 50px;
+}
+
+
+.main {
+	font-size: 20px;
+	width: 1300px;
+	height: 528px;
+	background-image: url(../images/surf.jpg);
+	background-size: cover;
+
+}
+
+
+#leftnav {
+	font: bold;
+	margin-left: 90px;
+	padding-top: 10px;
+}
+
+#leftnav li{
+	float: left;
+	padding-left: 10px;
+/*	padding-left: 20px;*/
+}
+
+#leftnav li h3{
+margin-top: 15px;
+}
+
+#rightnav {
+	margin-right: 120px;
+/*	padding-top: 10px;*/
+
+}
+
+#rightnav li{
+float: right;
+padding-left: 20px;
+padding-top: 10px;
+}
+
+#rightnav li img{
+}
+
+.maintitle {
+	text-align: center;
+	margin-top: 155px;
+	margin-bottom: 185px;
+	color: #FFFFFF;
+
+}
+
+.maintitle h1{
+	font-size: 120px;
+	text-align: center;
+}
+
+.maintitle h6 {
+	font-size: 15px;
+}
+
+#rightnav li h3{
+	padding-top: 5px
+}
+
+
+
+.popularposts {
+	width: 1300px;
+	height: 330px;
+	background-color: #DDDDDD;
+}
+
+.post1 {
+	width: 325px;
+	height: 330px;
+	float: left;
+	background-image: url(../images/surfer.jpg);
+
+}
+
+.post2 {
+	width: 325px;
+	height: 330px;
+	float: left;
+	background-image: url(../images/beer.jpg);
+
+}
+
+.post3 {
+	width: 325px;
+	height: 330px;
+	float: left;
+	background-image: url(../images/zack.jpg);
+
+}
+
+.post4 {
+	width: 325px;
+	height: 330px;
+	float: left;
+	background-image: url(../images/booze.jpg);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+	width: 1300px;
+	height: 100px;
+	background-color: #073453;
+}
+
+
+#bottomleftnav {
+	margin-left: 160px;
+	padding-top: 25px;
+	margin-top: 15px;
+
+}
+
+
+#bottomleftnav li {
+	float: left;
+	padding-left: 10px;
+}
+
+#bottomleftnav li p{
+	margin-top: 15px;
+	color: #B2B5BA;
+}
+
+#bottomrightnav {
+	margin-right: 160px;
+	margin-top: 15px;
+
+}
+
+#bottomrightnav li{
+float: right;
+padding-left: 20px;
+}
+
+#bottomrightnav li h3{
+	font-size: 15px;
+	color: #B2B5BA;
+}

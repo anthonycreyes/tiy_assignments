@@ -1,0 +1,49 @@
+body {
+	background: white;
+	font-family: Arial;
+}
+
+
+h1 {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 50px;
+}
+
+p {
+	font-family: arial, sans-serif;
+	color: black;
+	padding-top: 50px;
+	text-align: center;
+	font-size: 18px;
+}
+
+
+.portrait {
+	float: left;
+
+}
+
+.aboutme {
+	text-align: center;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+	
+
+
+
+.title {
+	padding-top: 100px;
+}
+
+
+
+img.myimage {
+	/*
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	*/
+}
