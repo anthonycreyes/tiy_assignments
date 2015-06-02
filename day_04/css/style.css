@@ -342,6 +342,13 @@ padding-top: 50px;
 	width: 1300px;
 	height: 330px;
 	background-color: #DDDDDD;
+	font-size: 30px;
+}
+
+.popularposts h2 {
+	color: #083452;
+	margin-top: 290px;
+	margin-left: 5px;
 }
 
 .post1 {
@@ -349,8 +356,9 @@ padding-top: 50px;
 	height: 330px;
 	float: left;
 	background-image: url(../images/surfer.jpg);
-
 }
+
+
 
 .post2 {
 	width: 325px;
@@ -360,12 +368,21 @@ padding-top: 50px;
 
 }
 
+.post2 h2 {
+	color: #ffffff;
+}
+
 .post3 {
 	width: 325px;
 	height: 330px;
 	float: left;
 	background-image: url(../images/zack.jpg);
 
+}
+
+
+.post3 h2 {
+	margin-top: 260px;
 }
 
 .post4 {
