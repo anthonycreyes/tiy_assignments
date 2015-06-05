@@ -1,0 +1,487 @@
+/*
+===========================
+GENERAL
+===========================
+*/
+
+.container {
+	width: 1300px;
+	margin: 0 auto;
+	font-family: Helvetica;
+}
+
+/*
+===========================
+TYPOGRAPHY
+===========================
+*/
+
+h3 {
+	font-size: 18px;
+	color: #083451;
+}
+
+
+/*
+===========================
+HEADER
+===========================
+*/
+
+header {
+	width: 1300px;
+	height: 50px;
+}
+
+.top-nav {
+/*	width: 1300px;*/
+	height: 528px;
+	background-image: url(../images/surf.jpg);
+	background-size: cover;
+}
+
+.leftnav {
+	margin-top: 15px;
+	margin-left: 90px;
+	float: left;
+}
+
+
+.leftnav img,
+.leftnav h3 {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.rightnav {
+	margin-top: 20px;
+	margin-right: 90px;
+	float: right;
+}
+
+
+.rightnav img,
+.rightnav h3 {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+
+
+.maintitle {
+	text-align: center;
+	margin-top: 155px;
+	margin-bottom: 185px;
+	color: #FFFFFF;
+
+}
+
+.maintitle h1{
+	font-size: 120px;
+	text-align: center;
+}
+
+.maintitle h6 {
+	font-size: 15px;
+}
+
+#rightnav li h3{
+	padding-top: 5px
+}
+
+
+article {
+	height: 910px;
+	width: 860px;
+	float: left;
+	color: #a3b3bf;
+	font: helvetica;
+}
+
+.articleheadline {
+	margin-left: 160px;
+	margin-right: 80px;
+}
+
+.articleheadline h2 {
+	font-size: 46px;
+	margin-top: 75px;
+	color: #083452;
+
+}
+
+.articledate {
+	margin-left: 160px;
+	margin-right: 80px;
+	margin-top: 25px;
+}
+
+.articledate img {
+	float: left;
+	height: 16px;
+	width: 16px;
+}
+
+.articledate p {
+	float: left;
+	margin-left: 85px;
+	margin-bottom: 40px;
+}
+
+
+.articlecontent blockquote {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 50px;
+  font-size: 30px;
+  color: #106db3;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-left: 2px solid #ccc;
+} 
+
+.articlecontent {
+	margin-left: 160px;
+	margin-right: 80px;
+	clear: both;
+}
+
+.articlecontent p {
+	margin-bottom: 40px;
+}
+
+
+aside {
+	height: 910px;
+	width: 440px;
+	float: left;
+/*	background-color: #BBBBBB;*/
+}
+
+.asideportrait {
+	margin-top: 75px;
+/*	background-color: #000000;*/
+
+}
+
+.asideportrait img{
+	display: block;
+	margin: auto;
+/*	background-color: #000000;*/
+}
+
+.asidelinks {
+	margin-left: 80px;
+	margin-top: 35px;
+}
+
+.asidesocial li {
+	float: left;
+/*	padding-left: 10px;*/
+}
+
+.asidesocial li h3{
+	font-size: 15px;
+	color: #a3b3bf;
+	margin-left: 20px;
+	margin-bottom: 50px;
+}
+
+
+.asidead {
+/*	background-color: #000000;*/
+}
+
+.asidead img {
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.sidebar {
+	width: 440px;
+
+}
+.sidebar p {
+	float: right;
+	margin-right: 81px;
+	font-size: 15px;
+	color: #a3b3bf;
+	text-decoration: underline;
+}
+
+.sidebarheading {
+/*	background-color: #DDDDDD;*/
+	margin-top: 40px;
+}
+
+.sidebarheading h2 {
+	clear: both;
+	margin-left: 81px;
+	font-size: 15px;
+	font-style: bold;
+	color: #106db3;
+}
+
+.sidebarheading p {
+	margin-left: 81px;
+	margin-right: 81px;
+	margin-top: 20px;
+	font-size: 15px;
+	color: #a3b3bf;
+}
+
+/*
+910px height
+860px width
+
+910px height
+440width
+*/
+
+
+/* This section outlines the article options*/
+
+.articleoptions {
+	width: 860px;
+	height: 110px;
+	color: #DDDDDD;
+	margin-left: 165px;
+/*	padding-top: 25px;*/
+	clear: both;
+}
+
+
+.icon1 {
+	width: 33px;
+	height: 30px;
+	float:  left;
+	background-color: #5C676D;
+}
+
+
+.icon-description1 {
+	float:left;
+	height: 30px;
+	background-color: #A3B3C0;
+	margin-right: 10px;
+}
+
+.icon-description1 p {
+	margin: 10px;
+	text-align: center;
+	font-size: 16px;
+	color: #ffffff;
+
+}
+
+.icon2 {
+	width: 33px;
+	height: 30px;
+	float:  left;
+	background-color: #5C676D;
+}
+
+
+.icon-description2 {
+	float:left;
+	height: 30px;
+	background-color: #A3B3C0;
+	margin-right: 10px;
+}
+
+.icon-description2 p {
+	margin: 10px;
+	text-align: center;
+	font-size: 16px;
+	color: #ffffff;
+
+}
+
+.icon3 {
+	width: 33px;
+	height: 30px;
+	float:  left;
+	background-color: #0A3049;
+}
+
+
+.icon-description3 {
+	float:left;
+	height: 30px;
+	background-color: #0B6EB2;
+}
+
+.icon-description3 p {
+	margin: 10px;
+	text-align: center;
+	font-size: 16px;
+	color: #ffffff;
+
+}
+
+
+
+/*This section outlines the Popular Post Header*/
+
+.postheadline {
+ 	width: 1300px;
+	height: 150px;
+	clear: both;
+/*	background-color: #DDDDDD;*/
+	padding-top: 60px;
+}
+
+.postheadline h2{
+/* MOST POPULAR POSTS: */
+text-align: center;
+font-size: 60px;
+color: #083452;
+letter-spacing: 2.5px;
+line-height: 72px;
+padding-top: 50px;
+}
+
+
+
+
+
+/*This section outlines the Popular Posts Images*/
+
+.popularposts {
+	width: 1300px;
+	height: 330px;
+	background-color: #DDDDDD;
+	font-size: 30px;
+}
+
+.popularposts h2 {
+	color: #083452;
+	margin-top: 290px;
+	margin-left: 5px;
+}
+
+.post1 {
+	width: 325px;
+	height: 330px;
+	float: left;
+	background-image: url(../images/surfer.jpg);
+}
+
+
+
+.post2 {
+	width: 325px;
+	height: 330px;
+	float: left;
+	background-image: url(../images/beer.jpg);
+
+}
+
+.post2 h2 {
+	color: #ffffff;
+}
+
+.post3 {
+	width: 325px;
+	height: 330px;
+	float: left;
+	background-image: url(../images/zack.jpg);
+
+}
+
+
+.post3 h2 {
+	margin-top: 260px;
+}
+
+.post4 {
+	width: 325px;
+	height: 330px;
+	float: left;
+	background-image: url(../images/booze.jpg);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+===========================
+FOOTER
+===========================
+*/
+
+footer {
+	width: 1300px;
+	height: 100px;
+	background-color: #073453;
+	clear: both;
+}
+
+.bottom-nav {
+
+}
+
+
+.bottomleftnav {
+	margin-top: 25px;
+	margin-left: 160px;
+	float: left;
+	color: #B2B5BA;
+}
+
+.bottomleftnav img,
+.bottomleftnav p {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.bottomrightnav {
+	margin-right: 160px;
+	margin-top: 35px;
+	float:right;
+	
+}
+
+.bottomrightnav h3 {
+	display: inline-block;
+	vertical-align: middle;
+	color: #B2B5BA;
+}
+
