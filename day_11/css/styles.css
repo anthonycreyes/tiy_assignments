@@ -1,0 +1,251 @@
+/*
+======================================
+General
+======================================
+*/
+
+.container	{
+	width: 1280px;
+	font-family: helvetica;
+	margin: 0 auto;
+}
+
+
+
+/*
+======================================
+Typography
+======================================
+*/
+
+.rightheader p{
+	font-size: 12px;
+}
+
+
+
+
+/*
+======================================
+Header
+======================================
+*/
+
+header {
+	height: 46px;
+	background-color: #F5F5F5;
+}
+
+.leftheader {
+/*	background-color: #DDDDDD;*/
+	margin-left: 190px;
+	float: left;
+	margin-top: 11px;
+}
+
+.leftheader img {
+	max-width: 23px;
+}
+
+.rightheader {
+	width: 500px;
+	float: right;
+	margin-right: 190px;
+	margin-top: 10px;
+/*	background-color:#BA5EBD;*/
+}
+
+.right-search {
+	float: right;
+	width: 190px;
+	border-radius: 21px;
+	padding: 5px 0px 5px 10px;
+	background-color: #f5f8fa;
+	border: 1px solid #e1e8ed;
+/*		background-color:#BA5EBD;*/
+}
+
+.right-search p{
+	color: #8899A6;
+}
+
+.rightheader p,
+.rightheader img {
+	display: inline-block;
+	vertical-align: middle;
+/*	margin-left: 10px;*/
+}
+
+.rightheader img {
+	height: 14px;
+	width: 14px;
+	padding-left: 80px;
+
+}
+
+
+.right-login {
+	float: right;
+/*	background-color:#BA5EBD;*/
+
+}
+
+.right-login p {
+	margin-top: 10px;
+	margin-left: 32px;
+	color: #66757f;
+}
+
+.topbackground {
+	height: 333px;
+	background-image: url(../assets/images/banner.jpg);
+	background-size: cover;
+}
+
+
+
+/*
+======================================
+Profile
+======================================
+*/
+
+.profile-container {
+	height: 60px;
+	width: 1280px;
+	margin: 0 auto;
+
+/*	background-color: #DDD;*/
+
+
+}
+
+.profile-leftside {
+	height: 60px;
+	margin-left: 160px;
+	float: left;
+/*	background-color: #000;*/
+	position: absolute;
+
+}
+
+.ironyardlogo {
+	width: 226px;
+	height: 226px;
+	position: relative;
+/*	padding: 25px 11px;*/
+	background-color: #FFF;
+	border: 1px solid #e1e8ed;
+	border-radius: 4px;
+	top: -137px;
+	left: 11px;
+}
+
+
+.ironyardlogo img {
+	width: 210px;
+margin-left: 8px;
+margin-top: 8px;
+}
+
+
+.profile-stats {
+	height: 60px;
+/*	width: 635px;*/
+/*	background-color:#BA5EBD;*/
+	margin-left: 470px;
+	float: left;
+}
+
+
+.stat-tweets,
+.stat-following,
+.stat-followers,
+.stat-favorites,
+.stat-lists {
+	height: 60px;
+/*	background-color: #DDD;*/
+	float: left;
+	padding: 14px 15px 7px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+
+
+.stat-line {
+	border-bottom: 3px solid;
+	border-color: #20A3D9;
+	width: 80px;
+}
+
+
+.stat-header {
+	font-size: 11px;
+	color: #66757f;
+	text-transform: uppercase;
+}
+
+.stat-number {
+	font-size: 18px;
+	color: #20A3D9;
+	padding-top: 3px;
+}
+
+.stat-line {
+	padding-top: 14px;
+}
+
+
+
+.followme {
+	float: right;
+	width: 108px;
+	margin-right: 160px;
+/*	background-color: #000;*/
+}
+
+
+.follow-button p,
+.follow-button img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.follow-button {
+	margin-top: 12px;
+	padding: 6px;
+	background-color: #F6F9FB;
+	border: 1px solid #e1e8ed;
+	border-radius: 4px;
+/*	cursor: pointer;*/
+/*	line-height: normal;*/
+/*	padding: 6px 24px;*/
+}
+
+
+.follow-button p{
+	color: #292f33; 
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+.follow-button img{
+	max-width: 18px;
+	margin-left: 10px;
+	float: left;
+
+}
+
+.profileunderline {
+	clear: both;
+	border-bottom: 3px solid;
+	border-color: #E7EDF1;
+	width: 1280px;
+}
+
+
+
+
+
