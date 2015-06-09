@@ -1,0 +1,98 @@
+
+// THESE ARE VARIABLES//
+
+$footer-bgcolor: #073453;
+$footer-linkcolor: #B2B5BA;
+$footer-textsize: 15px;
+
+
+// THIS IS A MIXIN//
+
+
+
+
+// THIS IS A REFINED NESTED SCSS//
+
+
+footer {
+	width: 1300px;
+	height: 100px;
+	background-color: $footer-bgcolor;
+}
+
+
+#bottomleftnav {
+	margin-left: 160px;
+	padding-top: 25px;
+/*	margin-top: 15px;*/
+
+	li {
+	float: left;
+	padding-left: 10px;
+	}
+
+		p{
+		margin-top: 15px;
+		color: $footer-linkcolor;
+}
+
+
+#bottomrightnav {
+	margin-right: 160px;
+	margin-top: 15px;
+
+	li{
+	float: right;
+	padding-left: 20px;
+	}
+
+		h3{
+		font-size: $footer-textsize;
+		color: $footer-linkcolor;
+		}
+}
+
+
+// THIS IS THE OLD CSS THAT ORIGINALLY USED//
+
+footer {
+	width: 1300px;
+	height: 100px;
+	background-color: #073453;
+}
+
+
+#bottomleftnav {
+	margin-left: 160px;
+	padding-top: 25px;
+/*	margin-top: 15px;*/
+
+}
+
+
+#bottomleftnav li {
+	float: left;
+	padding-left: 10px;
+}
+
+#bottomleftnav li p{
+	margin-top: 15px;
+	color: #B2B5BA;
+}
+
+#bottomrightnav {
+	margin-right: 160px;
+	margin-top: 15px;
+
+}
+
+#bottomrightnav li{
+float: right;
+padding-left: 20px;
+}
+
+#bottomrightnav li h3{
+	font-size: 15px;
+	color: #B2B5BA;
+}
+

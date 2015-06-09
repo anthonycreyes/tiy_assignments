@@ -1,0 +1,52 @@
+
+
+$popularpost-color: #083452;
+$popularpost-textsize: 60px;
+
+
+@mixin popularpost-typography {
+	letter-spacing: 2.5px;
+	line-height: 72px;
+	text-align: center;
+}
+
+
+// THIS IS A REFINED NESTED CSS//
+
+.postheadline {
+ 	width: 1300px;
+	height: 150px;
+	clear: both;
+	padding-top: 60px;
+
+	h2 {
+	/* MOST POPULAR POSTS: */
+	font-size: $popularpost-textsize;
+	color: $popularpost-color;
+	padding-top: 50px;
+	}
+}
+
+
+
+
+// THIS IS THE OLD CSS THAT ORIGINALLY USED//
+
+.postheadline {
+ 	width: 1300px;
+	height: 150px;
+	clear: both;
+/*	background-color: #DDDDDD;*/
+	padding-top: 60px;
+}
+
+.postheadline h2{
+/* MOST POPULAR POSTS: */
+text-align: center;
+font-size: 60px;
+color: #083452;
+letter-spacing: 2.5px;
+line-height: 72px;
+padding-top: 50px;
+}
+

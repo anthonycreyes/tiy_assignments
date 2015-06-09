@@ -1,0 +1,322 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  font-family: Helvetica; }
+
+header {
+  max-width: 1300px;
+  height: 50px; }
+
+/*This section outlines the Top Navigation Header*/
+.main {
+  width: 1300px;
+  height: 528px;
+  background-image: url(../images/surf.jpg);
+  background-size: cover; }
+
+#leftnav {
+  font: bold;
+  margin-left: 90px;
+  padding-top: 10px; }
+  #leftnav li {
+    float: left;
+    padding-left: 10px; }
+  #leftnav h3 {
+    margin-top: 15px; }
+
+#rightnav {
+  margin-right: 120px; }
+  #rightnav li {
+    float: right;
+    padding-left: 20px;
+    padding-top: 10px; }
+  #rightnav h3 {
+    padding-top: 5px; }
+
+.maintitle {
+  text-align: center;
+  margin-top: 155px;
+  margin-bottom: 185px;
+  color: #FFF; }
+  .maintitle h1 {
+    font-size: 120px;
+    text-align: center; }
+  .maintitle h6 {
+    font-size: 15px; }
+
+/* This section outlines the article section - more details to follow*/
+article {
+  height: 910px;
+  width: 860px;
+  float: left;
+  color: #a3b3bf; }
+
+.articleheadline {
+  margin-left: 160px;
+  margin-right: 80px; }
+  .articleheadline h2 {
+    font-size: 46px;
+    margin-top: 75px;
+    color: #083452; }
+
+.articledate {
+  margin-left: 160px;
+  margin-right: 80px;
+  margin-top: 25px; }
+  .articledate img {
+    float: left;
+    height: 16px;
+    width: 16px; }
+  .articledate p {
+    float: left;
+    margin-left: 85px;
+    margin-bottom: 40px; }
+
+.articlecontent {
+  margin-left: 160px;
+  margin-right: 80px;
+  clear: both; }
+  .articlecontent blockquote {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 50px;
+    font-size: 30px;
+    color: #106db3;
+    border-left: 2px solid #CCC; }
+  .articlecontent p {
+    margin-bottom: 40px; }
+
+/* This section outlines the aside section - more details to follow*/
+aside {
+  height: 910px;
+  width: 440px;
+  float: left; }
+
+.asideportrait {
+  margin-top: 75px; }
+  .asideportrait img {
+    display: block;
+    margin: auto; }
+
+.asidelinks {
+  margin-left: 80px;
+  margin-top: 35px; }
+
+.asidesocial li {
+  float: left; }
+.asidesocial h3 {
+  font-size: 15px;
+  color: #a3b3bf;
+  margin-left: 20px;
+  margin-bottom: 50px; }
+
+.asidead img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px; }
+
+.sidebar {
+  width: 440px; }
+  .sidebar p {
+    float: right;
+    margin-right: 81px;
+    font-size: 15px;
+    color: #a3b3bf;
+    text-decoration: underline; }
+
+.sidebarheading {
+  margin-top: 40px; }
+  .sidebarheading h2 {
+    clear: both;
+    margin-left: 81px;
+    font-size: 15px;
+    font-style: bold;
+    color: #106db3; }
+  .sidebarheading p {
+    margin-left: 81px;
+    margin-right: 81px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #a3b3bf; }
+
+/* This section outlines the article options*/
+.articleoptions {
+  width: 860px;
+  height: 110px;
+  color: #DDD;
+  margin-left: 165px;
+  /*	padding-top: 25px;*/
+  clear: both; }
+
+.icon1,
+.icon2,
+.icon3 {
+  width: 33px;
+  height: 30px; }
+
+.icon1 {
+  float: left;
+  background-color: #5C676D; }
+
+.icon-description1 {
+  float: left;
+  height: 30px;
+  background-color: #A3B3C0;
+  margin-right: 10px; }
+  .icon-description1 p {
+    margin: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #FFF; }
+
+.icon2 {
+  float: left;
+  background-color: #5C676D; }
+
+.icon-description2 {
+  float: left;
+  height: 30px;
+  background-color: #A3B3C0;
+  margin-right: 10px; }
+  .icon-description2 p {
+    margin: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #FFF; }
+
+.icon3 {
+  float: left;
+  background-color: #0A3049; }
+
+.icon-description3 {
+  float: left;
+  height: 30px;
+  background-color: #0B6EB2; }
+  .icon-description3 p {
+    margin: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #FFF; }
+
+/*This section outlines the Popular Post Header*/
+.postheadline {
+  width: 1300px;
+  height: 150px;
+  clear: both;
+  padding-top: 60px; }
+  .postheadline h2 {
+    /* MOST POPULAR POSTS: */
+    letter-spacing: 2.5px;
+    line-height: 72px;
+    text-align: center;
+    font-size: 60px;
+    color: #083452;
+    padding-top: 50px; }
+
+/*This section outlines the Popular Posts Images*/
+.popularposts {
+  width: 1300px;
+  height: 330px;
+  color: #fff;
+  font-size: 30px; }
+  .popularposts h2 {
+    color: #083452;
+    margin-top: 290px;
+    margin-left: 5px; }
+  .popularposts .post1,
+  .popularposts .post2,
+  .popularposts .post3,
+  .popularposts .post4 {
+    width: 325px;
+    height: 330px;
+    float: left; }
+  .popularposts .post1 {
+    background-image: url(../images/surfer.jpg); }
+  .popularposts .post2 {
+    background-image: url(../images/beer.jpg); }
+    .popularposts .post2 h2 {
+      color: #fff; }
+  .popularposts .post3 {
+    background-image: url(../images/zack.jpg); }
+    .popularposts .post3 h2 {
+      margin-top: 260px; }
+  .popularposts .post4 {
+    background-image: url(../images/booze.jpg); }
+
+/*This section outlies the page footer*/
+footer {
+  width: 1300px;
+  height: 100px;
+  background-color: #073453; }
+
+#bottomleftnav {
+  margin-left: 160px;
+  padding-top: 25px;
+  /*	margin-top: 15px;*/ }
+  #bottomleftnav li {
+    float: left;
+    padding-left: 10px; }
+    #bottomleftnav li p {
+      margin-top: 15px;
+      color: #B2B5BA; }
+
+#bottomrightnav {
+  margin-right: 160px;
+  margin-top: 15px; }
+  #bottomrightnav li {
+    float: right;
+    padding-left: 20px; }
+    #bottomrightnav li h3 {
+      font-size: 15px;
+      color: #B2B5BA; }
+
+/*# sourceMappingURL=style.css.map */
