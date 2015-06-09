@@ -1,0 +1,24 @@
+
+// This document contains all of the Mix-ins for the Design Agency HTML page//
+
+@mixin footertext-margins {
+	margin-top: 65px;
+	margin-bottom: 65px;
+}
+
+@mixin map-size {
+	height: 500px;
+	width: 640px;
+}
+
+@mixin staff-image-dimensions {
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+}
+
+@mixin staff-container {
+	width: 200px;
+	float: left;
+	margin-bottom: 110px;
+}

@@ -1,0 +1,81 @@
+
+
+
+// New SCSS//
+
+$backgroundcolor1: #f2ede5;
+
+$textsize20: 20px;
+$textsize11: 11px;
+
+@mixin staff-image-dimensions {
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+}
+
+@mixin staff-container {
+	width: 200px;
+	float: left;
+	margin-bottom: 110px;
+}
+
+@include icon-size;
+
+// THIS IS A REFINED NESTED CSS//
+
+
+// THIS IS THE OLD CSS THAT ORIGINALLY USED//dds
+
+
+
+.staff {
+	max-width: 1280px;
+ 	margin: 0 auto;
+ /*	margin-left: 100px;*/
+}
+
+
+.staff-photo,
+.staff-photo2,
+.staff-photo3 {
+	@include staff-container;
+}
+
+.staff-photo{
+	margin-left: 100px;
+	margin-right: 240px;
+
+
+	.image-han {
+		@include staff-image-dimensions;
+		background-image: url(../images/han.jpg);
+
+	}
+}
+
+.staff-photo2{
+	margin-right: 240px;
+
+	.image-chewy {
+		@include staff-image-dimensions;
+		background-image: url(../images/chewbacca.jpg);
+
+	}
+}
+
+.staff-photo3{
+
+	.image-darth {
+		@include staff-image-dimensions;
+		background-image: url(../images/darth.jpg);
+
+	}
+}
+
+
+p {
+	font-size: $textsize11;
+	text-align: center;
+	max-width: 200px;
+}
