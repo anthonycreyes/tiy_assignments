@@ -1,0 +1,210 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-size: 16px; }
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Helvetica"; }
+
+header {
+  width: 100%;
+  height: 50px; }
+
+.main {
+  width: 100%;
+  height: 528px;
+  background-image: url(../images/surf.jpg);
+  background-size: cover; }
+
+img {
+  max-width: 100%; }
+
+.main {
+  text-align: center; }
+  .main #leftnav {
+    font: bold;
+    padding-top: 2.5%;
+    display: inline-block; }
+    .main #leftnav li {
+      float: left;
+      padding-left: 20px; }
+    .main #leftnav img {
+      max-width: 50%;
+      margin-top: 10px; }
+    .main #leftnav h3 {
+      clear: both;
+      margin-top: 15px; }
+  .main #rightnav {
+    padding-top: 2.5%;
+    display: inline-block; }
+    .main #rightnav li {
+      float: left;
+      margin-right: 20px; }
+    .main #rightnav img {
+      max-width: 50%;
+      margin-top: 5px; }
+    .main #rightnav h3 {
+      padding-top: 5px; }
+
+.maintitle {
+  text-align: center;
+  margin-top: 155px;
+  margin-bottom: 185px;
+  color: #FFF; }
+  .maintitle h1 {
+    font-size: 65px;
+    text-align: center; }
+  .maintitle h6 {
+    margin-top: 10px;
+    font-size: 12px; }
+
+article {
+  height: 910px;
+  width: 100%;
+  color: #a3b3bf;
+  text-align: center;
+  margin-top: 75px; }
+
+.articleheadline {
+  display: inline-block; }
+  .articleheadline h2 {
+    font-size: 46px;
+    margin-top: 75px;
+    color: #083452; }
+
+.articledate {
+  display: inline-block;
+  margin-top: 25px; }
+  .articledate img {
+    float: left;
+    height: 16px;
+    width: 16px; }
+  .articledate p {
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 40px; }
+
+.articlecontent {
+  clear: both;
+  margin-left: 25px; }
+  .articlecontent blockquote {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 50px;
+    font-size: 30px;
+    color: #106db3;
+    border-left: 2px solid #CCC; }
+  .articlecontent p {
+    margin-bottom: 40px;
+    text-align: left;
+    line-height: 24px; }
+
+/* This section outlines the article options*/
+.articleoptions {
+  width: 860px;
+  height: 110px;
+  color: #DDD;
+  margin-left: 165px;
+  /*	padding-top: 25px;*/
+  clear: both; }
+
+.icon1,
+.icon2,
+.icon3 {
+  width: 33px;
+  height: 30px; }
+
+.icon1 {
+  float: left;
+  background-color: #5C676D; }
+
+.icon-description1 {
+  float: left;
+  height: 30px;
+  background-color: #A3B3C0;
+  margin-right: 10px; }
+  .icon-description1 p {
+    margin: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #FFF; }
+
+.icon2 {
+  float: left;
+  background-color: #5C676D; }
+
+.icon-description2 {
+  float: left;
+  height: 30px;
+  background-color: #A3B3C0;
+  margin-right: 10px; }
+  .icon-description2 p {
+    margin: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #FFF; }
+
+.icon3 {
+  float: left;
+  background-color: #0A3049; }
+
+.icon-description3 {
+  float: left;
+  height: 30px;
+  background-color: #0B6EB2; }
+  .icon-description3 p {
+    margin: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #FFF; }
+
+/*# sourceMappingURL=style.css.map */

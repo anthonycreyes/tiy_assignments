@@ -1,0 +1,103 @@
+
+
+$backgroundcolor1: #5C676D;
+$backgroundcolor2: #A3B3C0;
+$backgroundcolor3: #0A3049;
+$backgroundcolor4: #0B6EB2;
+
+$textsize16: 16px;
+
+$grey-text2: #DDD;
+$white-text: #FFF;
+
+
+@mixin icon-size {
+	width: 33px;
+	height: 30px;
+}
+
+@include icon-size;
+
+// THIS IS A REFINED NESTED CSS//
+
+
+// THIS IS THE OLD CSS THAT ORIGINALLY USED//
+
+
+
+.articleoptions {
+	width: 860px;
+	height: 110px;
+	color: $grey-text2;
+	margin-left: 165px;
+/*	padding-top: 25px;*/
+	clear: both;
+}
+
+
+.icon1,
+.icon2,
+.icon3 {
+	@include icon-size;
+}
+
+
+.icon1 {
+	float:  left;
+	background-color: $backgroundcolor1;
+}
+
+
+.icon-description1 {
+	float:left;
+	height: 30px;
+	background-color: $backgroundcolor2;
+	margin-right: 10px;
+
+	p {
+	margin: 10px;
+	text-align: center;
+	font-size: $textsize16;
+	color: $white-text;
+	}
+}
+
+
+.icon2 {
+	float:  left;
+	background-color: $backgroundcolor1;
+}
+
+
+.icon-description2 {
+	float:left;
+	height: 30px;
+	background-color: $backgroundcolor2;
+	margin-right: 10px;
+
+	p {
+	margin: 10px;
+	text-align: center;
+	font-size: $textsize16;
+	color: $white-text;
+	}
+}
+
+.icon3 {
+	float:  left;
+	background-color: $backgroundcolor3;
+}
+
+
+.icon-description3 {
+	float:left;
+	height: 30px;
+	background-color: $backgroundcolor4;
+
+	p {
+	margin: 10px;
+	text-align: center;
+	font-size: $textsize16;
+	color: $white-text;
+	}
+}

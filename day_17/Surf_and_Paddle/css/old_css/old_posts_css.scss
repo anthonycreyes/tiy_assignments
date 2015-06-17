@@ -1,0 +1,167 @@
+
+
+$post-inactivecolor: #083452;
+$post-activecolor: #fff;
+$post-textsize: 30px;
+$post-height: 330px;
+
+
+@mixin post-containersize {
+	width: 325px;
+	height: 330px;
+	float: left;
+}
+
+
+
+// THIS IS A REFINED NESTED CSS//
+
+.popularposts {
+	width: 1300px;
+	height: 330px;
+	color: $post-activecolor;
+	font-size: $post-textsize;
+
+	h2 {
+	color: $post-inactivecolor;
+	margin-top: 290px;
+	margin-left: 5px;
+	}
+
+	.post1,
+	.post2,
+	.post3,
+	.post4 {
+	@include post-containersize;
+	}
+
+	.post1 {
+		background-image: url(../images/surfer.jpg);
+	}
+
+	.post2 {
+		background-image: url(../images/beer.jpg);
+	
+		h2 {
+		color: $post-activecolor;
+		}
+	}
+
+	.post3 {
+		background-image: url(../images/zack.jpg);
+
+		h2 {
+		margin-top: 260px;
+		}
+	}
+	
+	.post4 {
+		background-image: url(../images/booze.jpg);
+	}
+}
+
+
+
+// THIS IS THE NEW SCSS THAT WAS CREATED FROM THE OLD CSS//
+
+
+.popularposts {
+	width: 1300px;
+	height: 330px;
+	color: $post-activecolor;
+	font-size: $post-textsize;
+}
+
+.popularposts h2 {
+	color: $post-inactivecolor;
+	margin-top: 290px;
+	margin-left: 5px;
+}
+
+.post1 {
+	@include post-containersize;
+	background-image: url(../images/surfer.jpg);
+}
+
+.post2 {
+	@include post-containersize;
+	background-image: url(../images/beer.jpg);
+}
+
+.post2 h2 {
+	color: $post-activecolor;
+}
+
+.post3 {
+	@include post-containersize;
+	background-image: url(../images/zack.jpg);
+}
+
+
+.post3 h2 {
+	margin-top: 260px;
+}
+
+.post4 {
+	@include post-containersize;
+	background-image: url(../images/booze.jpg);
+}
+
+
+
+// THIS IS THE OLD CSS THAT ORIGINALLY USED//
+
+
+.popularposts {
+	width: 1300px;
+	height: 330px;
+	font-size: 30px;
+	color: #083452;
+}
+
+.popularposts h2 {
+	margin-top: 290px;
+	margin-left: 5px;
+}
+
+.post1 {
+	width: 325px;
+	height: 330px;
+	float: left;
+	background-image: url(../images/surfer.jpg);
+}
+
+
+
+.post2 {
+	width: 325px;
+	height: 330px;
+	float: left;
+	background-image: url(../images/beer.jpg);
+
+}
+
+.post2 h2 {
+	color: #ffffff;
+}
+
+.post3 {
+	width: 325px;
+	height: 330px;
+	float: left;
+	background-image: url(../images/zack.jpg);
+
+}
+
+
+.post3 h2 {
+	margin-top: 260px;
+}
+
+.post4 {
+	width: 325px;
+	height: 330px;
+	float: left;
+	background-image: url(../images/booze.jpg);
+
+}

@@ -1,0 +1,24 @@
+@mixin icon-size {
+	width: 33px;
+	height: 30px;
+}
+
+@mixin popularpost-typography {
+	letter-spacing: 2.5px;
+	line-height: 72px;
+	text-align: center;
+}
+
+@mixin post-containersize {
+	width: 325px;
+	height: 330px;
+	float: left;
+}
+
+
+@mixin blockquote-margins {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+}

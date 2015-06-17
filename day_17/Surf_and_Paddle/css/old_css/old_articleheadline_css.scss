@@ -1,0 +1,98 @@
+$backgroundcolor1: #5C676D;
+$backgroundcolor2: #A3B3C0;
+$backgroundcolor3: #0A3049;
+$backgroundcolor4: #0B6EB2;
+
+$textsize16: 16px;
+$textsize15: 15px;
+$textsize60: 60px;
+$textsize30: 30px;
+$textsize42: 46px;
+
+$blue-text: #106db3;
+$grey-text: #a3b3bf;
+$grey-text2: #DDD;
+$white-text: #FFF;
+$blue-text2: #083452;
+
+
+$footer-bgcolor: #073453;
+$footer-linkcolor: #B2B5BA;
+$footer-textsize: 15px;
+
+
+$post-inactivecolor: #083452;
+$post-activecolor: #fff;
+$post-height: 330px;
+
+
+$border-color1: #CCC;
+
+
+
+
+
+@include icon-size;
+
+// THIS IS A REFINED NESTED CSS//
+
+
+// THIS IS THE OLD CSS THAT ORIGINALLY USED//
+
+
+
+
+article {
+	height: 910px;
+	width: 860px;
+	float: left;
+	color: $grey-text;
+	font: helvetica;
+}
+
+.articleheadline {
+	margin-left: 160px;
+	margin-right: 80px;
+
+	h2 {
+	font-size: $textsize42;
+	margin-top: 75px;
+	color: $blue-text2;
+	}
+}
+
+.articledate {
+	margin-left: 160px;
+	margin-right: 80px;
+	margin-top: 25px;
+
+	img {
+	float: left;
+	height: 16px;
+	width: 16px;
+	}
+
+	p {
+	float: left;
+	margin-left: 85px;
+	margin-bottom: 40px;
+	}
+}
+
+.articlecontent {
+	margin-left: 160px;
+	margin-right: 80px;
+	clear: both;
+
+	blockquote {
+	@include blockquote-margins;
+	height: 50px;
+	font-size: $textsize30;
+	color: $blue-text;
+	border-left: 2px solid $border-color1;
+	}
+
+	p {
+	margin-bottom: 40px;
+	}
+}

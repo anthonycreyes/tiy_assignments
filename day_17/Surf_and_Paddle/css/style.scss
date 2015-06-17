@@ -1,0 +1,254 @@
+@import 'reset';
+@import 'colors-fonts';
+@import 'mix-ins';
+
+
+//convert pixels into percentage page layout//
+//
+
+
+  
+	body {
+		font-size: 16px;
+	}
+
+	.container {
+		width: 100%; //convert to percentage - 1300px/1300 = 100% 
+		margin: 0 auto;
+		font-family: "Helvetica";
+	}
+
+
+	header {
+	width: 100%; //convert to percentage - 1300px/1300 = 100%
+	height: 50px;
+	}
+
+
+	.main {
+	width: 100%;  //convert to percentage - 1300px/1300 = 100%
+	height: 528px;
+	background-image: url(../images/surf.jpg);
+	background-size: cover;
+	}
+
+	img {
+	max-width:100%;
+	}
+
+	.main{
+	text-align: center;
+	
+
+		#leftnav {
+		font: bold;
+		padding-top: 2.5%; //convert to percentage - (10px/400px) *100 = 2.5%
+		display: inline-block;
+
+
+				li{
+				float: left;
+				padding-left: 20px; //convert to percentage - (20px/400px) *100 = 5.0% **DOESN"T WORK**
+				}
+					img{
+						max-width: 50%;
+						margin-top: 10px; //convert to percentage - (15px/1300px) *100 = 1.153846153846 **DO YOU CHANGE HEIGHT TO PERCENTAGE?**
+					}
+
+					h3{
+					clear: both;
+					margin-top: 15px; //convert to percentage - (15px/1300px) *100 = 1.153846153846 **DO YOU CHANGE HEIGHT TO PERCENTAGE?**
+					}
+		}
+
+
+		#rightnav {
+		padding-top: 2.5%; //convert to percentage - (10px/400px) *100 = 2.5%
+		display: inline-block;
+
+
+				li{
+				float: left;
+				margin-right: 20px;   //convert to percentage - (20px/1300px) *100 = 1.538461538462
+				}
+					img{
+						max-width: 50%;
+						margin-top: 5px; //convert to percentage - (15px/1300px) *100 = 1.153846153846 **DO YOU CHANGE HEIGHT TO PERCENTAGE?**
+					}
+
+					h3{
+					padding-top: 5px
+					}
+		}
+	}
+
+	.maintitle {
+		text-align: center;
+		margin-top: 155px;
+		margin-bottom: 185px;
+		color: $white-text;
+
+			h1{
+			font-size: 65px;
+
+			text-align: center;
+			}
+
+			h6 {
+			margin-top: 10px;
+			font-size: 12px;
+			}
+	}
+
+
+
+
+
+
+
+
+
+article {
+height: 910px;
+width: 100%;
+color: $grey-text;
+text-align: center;
+	margin-top: 75px;
+}
+
+
+
+.articleheadline {
+	display: inline-block;
+
+	h2 {
+	font-size: $textsize42;
+	margin-top: 75px;
+	color: $blue-text2;
+	}
+}
+
+.articledate {
+	display: inline-block;
+	margin-top: 25px;
+
+		img {
+		float: left;
+		height: 16px;
+		width: 16px;
+		}
+
+		p {
+		float: left;
+		margin-left: 25px;
+		margin-bottom: 40px;
+		}
+}
+
+
+
+.articlecontent {
+	clear: both;
+	// display: inline-block;
+	margin-left: 25px;
+
+		blockquote {
+		@include blockquote-margins;
+		height: 50px;
+		font-size: $textsize30;
+		color: $blue-text;
+		border-left: 2px solid $border-color1;
+		}
+
+
+		p {
+		margin-bottom: 40px;
+		text-align: left;
+		line-height: 24px;
+		}
+}
+
+
+/* This section outlines the article options*/
+
+.articleoptions {
+	width: 860px;
+	height: 110px;
+	color: $grey-text2;
+	margin-left: 165px;
+/*	padding-top: 25px;*/
+	clear: both;
+}
+
+
+.icon1,
+.icon2,
+.icon3 {
+	@include icon-size;
+}
+
+
+.icon1 {
+	float:  left;
+	background-color: $backgroundcolor1;
+}
+
+
+.icon-description1 {
+	float:left;
+	height: 30px;
+	background-color: $backgroundcolor2;
+	margin-right: 10px;
+
+	p {
+	margin: 10px;
+	text-align: center;
+	font-size: $textsize16;
+	color: $white-text;
+	}
+}
+
+
+.icon2 {
+	float:  left;
+	background-color: $backgroundcolor1;
+}
+
+
+.icon-description2 {
+	float:left;
+	height: 30px;
+	background-color: $backgroundcolor2;
+	margin-right: 10px;
+
+	p {
+	margin: 10px;
+	text-align: center;
+	font-size: $textsize16;
+	color: $white-text;
+	}
+}
+
+.icon3 {
+	float:  left;
+	background-color: $backgroundcolor3;
+}
+
+
+.icon-description3 {
+	float:left;
+	height: 30px;
+	background-color: $backgroundcolor4;
+
+	p {
+	margin: 10px;
+	text-align: center;
+	font-size: $textsize16;
+	color: $white-text;
+	}
+}
+
+
+
+
+
