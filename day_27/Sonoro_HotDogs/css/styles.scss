@@ -1,0 +1,248 @@
+@import 'reset';
+@import 'colors';
+@import 'typography';
+@import 'grid';
+@import 'responsive-nav'; 
+
+
+//===============================
+// GLOBAL CSS SETTINGS
+//===============================
+
+// Setting Box Sizing to Border Box
+html {
+  box-sizing: border-box;
+}
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img {max-width:100%;}
+
+
+//===============================
+// ALTERNATE HEADER FOR MOBILE (Test)
+//===============================
+
+// .copyright2 {
+// 	padding-top: 20px;
+// 	display:flex;
+// 	justify-content:center;
+// 	align-items:center;
+// }
+
+// .socialmedia-icons2 {
+// 	// display:flex;
+// 	// justify-content:center;
+// 	// align-items:center;
+	
+// 	li {
+// 		float: left;
+// 		padding-top: 20px;
+// 		padding-left: 20px;
+// 	}
+
+// }
+
+
+//===============================
+// HEADER SECTION
+//===============================
+
+
+.top-logo {
+	display:flex;
+	justify-content:center;
+	align-items:flex-end;
+	background-color: $backgroundcolor2;
+	padding: 15px 28px;
+}
+
+.top-left-nav {
+	padding: 13px 28px;
+}
+
+// Navigation that appears below the Logo
+.nav-regular-top {
+	display:flex;
+	justify-content:center;
+	align-items:flex-end;
+	background-color: $backgroundcolor2;
+
+
+	li {
+		float: left;
+		padding: 13px 12px;
+	}
+}
+
+
+//===============================
+// TOP BORDER IMAGE
+//===============================
+
+
+.atrium-box{
+
+  	div {
+    padding: 1rem;
+    margin: 0 0 0.5rem 0;
+  }
+ 
+}
+
+
+.atrium-border {
+  color: black;
+  background: repeating-linear-gradient(
+    to right,
+    #D8D8D8,
+    #D8D8D8 15px,
+    #ffffff 10px,
+    #ffffff 24px
+    // #f6ba52,
+    // #f6ba52 10px,
+    // #ffd180 10px,
+    // #ffd180 20px
+  );
+}
+
+
+//===============================
+// FOOTER
+//===============================
+
+
+footer {
+	clear: both;
+	background-color: $backgroundcolor2;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+
+.copyright {
+	padding: 20px 28px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.socialmedia-icons {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+	li {
+		float: left;
+		padding-left: 20px;
+
+		img {
+			height: 18px;
+		}
+	}
+
+}
+
+.menu-image {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding-top: 30px;
+	padding-bottom: 10%;
+
+		img {
+			width: 30%;
+		}
+
+}
+	
+
+
+//===============================
+// MENU HEADER
+//===============================
+
+
+.hotdog-menu,
+.quesadilla-menu,
+.burrito-menu,
+.beverage-menu, {
+ margin-left: 23%;
+ padding-bottom: 70px;
+}
+
+
+.food-category h2{
+	font-family: $food-category;
+	font-size: 1em;
+	color: $color7;
+}
+
+
+.food-details {
+	clear: both;
+}
+
+.food-item {
+	font-family: $food-item;
+	font-size: 0.750em;
+	color: $color1;
+	float: left;
+	padding-top: 14px;
+}
+
+.food-price {
+	font-family: $food-price;
+	font-size: 0.750em;
+	color: $color8;
+	padding-top: 14px;
+}
+
+.food-price {
+	float: right;
+	padding-right: 45%;
+
+}
+
+.food-description {
+	font-family: $food-description;
+	font-size: 0.625em;
+	color: $color6;
+	clear: both;
+}
+
+.food-description p {
+	padding-top: 6px;
+}
+
+
+
+@media screen and (min-width: 750px) {
+  
+
+.hotdog-menu,
+.quesadilla-menu,
+.burrito-menu,
+.beverage-menu, {
+ margin-left: 10%;
+ padding-bottom: 70px;
+ width: 50%;
+}
+
+.hotdog-menu {
+ float: left;
+}
+
+.burrito-menu {
+ float: right;
+}
+
+
+
+ }
+
+

@@ -1,0 +1,26 @@
+////// Typography //////
+
+$headline-stack: 'Special Elite' cursive, sans-serif;
+$body-stack: 'Nixie One', cursive, sans-serif;
+$nav-links: 'Nixie One', cursive, sans-serif;
+
+$food-category: 'Special Elite' cursive, sans-serif;
+$food-item: 'Quando', serif;
+$food-price: 'Quando', serif;
+$food-details: 'Nixie One', cursive, sans-serif;
+$food-description: 'Nixie One', cursive, sans-serif;
+
+
+// Fonts used in Webpage
+// font-family: 'Nixie One', cursive;
+// font-family: 'Special Elite', cursive;
+// font-family: 'Quando', serif;
+
+
+
+
+body {
+  font-size: 16px;
+  font-style: normal;
+  font-family: $body-stack;
+}
